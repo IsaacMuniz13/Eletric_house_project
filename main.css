@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    max-width: 1920px;
+    width: 100%;
+    position: fixed;
+    padding: 16px;
+    background-color: rgb(0, 207, 218);
+}
+
+header h1 {
+    color: rgb(52, 65, 65);
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a {
+    color: rgb(52, 65, 65);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header .container,
+section .container {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container img {
+    width: 450px;
+}
+
+.brands-list img {
+    height: 40px;
+    width: 40px;
+}
+
+.brands-list li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+#sobrenos {
+    padding: 125px 0;
+    background-color: rgb(52, 65, 65);
+}
+
+section h2 {
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 25px;
+    color: rgb(0, 207, 218);
+}
+
+section p {
+    font-size: 19px;
+    margin-bottom: 16px;
+    color: rgb(0, 207, 218);
+}
+
+section .imgprin {
+    margin-right: 32px;
+}
+
+#contact {
+    height: 680px;
+    padding: 125px;
+    background-color:rgb(0, 207, 218);
+}
+
+#contact .container {
+    display: inline;
+    justify-content: center ;
+    align-items: center;
+}
+
+.contact-cont {
+    display: block;
+}
+
+form input, button,
+textarea {
+    display: block;
+    width: 500px;
+    height: 70px;
+    margin-bottom: 10px;
+    margin-left: 420px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button:focus {
+    color: rgb(52, 65, 65);
+}
+
+.icons {
+    display: flex;
+}
+
+.links img {
+    height: 24px;
+    width: auto;
+    margin-left: 18px;
+}
+
+#contact h3 {
+    margin-left: 490px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(52, 65, 65);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#final {
+    height: 600px;
+    padding-top: 50px;
+    background-color: rgb(0, 207, 218);
+}
+
+#final img {
+    height: 60px;
+    width: auto;
+}
+
+#final h3 {
+    margin-top: 150px;
+    margin-left: 600px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(52, 65, 65);
+    font-family: 'Josefin Sans', sans-serif;
+    }
+
+.cont2 {
+    display: inline;
+    padding-left: 580px;
+}
+
+.cont2 img {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+form button {
+    background-color: rgb(52, 65, 65);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgb(88, 131, 131);
+}
+
+input, textarea {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+}
+
+footer {
+    background-color: rgb(52, 65, 65);
+    color: white;
+    padding: 16px 0;
+}
